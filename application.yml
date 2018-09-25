@@ -9,5 +9,4 @@ spring:
 --- 
 spring: 
   profiles: test #开发环境 
-  application: springcloud-config-test 
- 
+  application: springcloud-config-test
