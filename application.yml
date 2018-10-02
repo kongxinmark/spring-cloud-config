@@ -5,7 +5,7 @@ spring:
 --- 
 spring: 
   profiles: dev #开发环境 
-  application: springcloud-config-dev 
+  application: configcenter
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: org.gjt.mm.mysql.Driver
@@ -37,7 +37,7 @@ druid:
 --- 
 spring: 
   profiles: test #开发环境 
-  application: springcloud-config-test
+  application: configcenter
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: org.gjt.mm.mysql.Driver
